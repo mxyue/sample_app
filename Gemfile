@@ -1,5 +1,7 @@
 source 'https://ruby.taobao.org'
 
+gem 'minitest'
+gem 'zip-zip'
 group :development, :test do
   gem 'sqlite3', '1.3.7'
   gem 'rspec-rails', '2.13.1'
